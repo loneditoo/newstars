@@ -6,3 +6,5 @@ node_modules/
 
 # Ignore log files
 *.log
+#ignore mac files
+.DS_Store
