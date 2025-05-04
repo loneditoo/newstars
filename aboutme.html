@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Metalacrobat">
+    <meta name="keywords" content="Metalacrobat, About Me, Coding, Information Technology, Star Wars">
+    <meta name="description" content="A Star Wars-themed personal page about Metalacrobat, a passionate coder and IT graduate.">
+    <title>About Me - Metalacrobat</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); /* Star Wars-inspired font */
+
+        body {
+            margin: 0;
+            font-family: 'Press Start 2P', Arial, sans-serif; /* Star Wars-inspired font */
+            background-color: #000000; /* Pure black background for a darker theme */
+            background-image: url('./star-wars-background.jpg'); /* Replace with a Star Wars-themed background */
+            background-size: cover; /* Ensures the image covers the entire background */
+            background-position: center; /* Centers the image */
+            background-attachment: fixed; /* Keeps the background fixed during scrolling */
+            color: #FFD700; /* Golden-yellow text for Star Wars theme */
+            text-align: center;
+            line-height: 1.8;
+            padding: 20px;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.95); /* Almost pure black for the header */
+            padding: 20px 0;
+            box-shadow: 0 4px 8px rgba(255, 0, 0, 0.8); /* Red glow for the header */
+        }
+        header h1 {
+            color: crimson; /* Sith red for the main heading */
+            text-shadow: 0 0 25px crimson, 0 0 40px crimson; /* Intense glowing effect */
+            font-size: 2.5em;
+            margin: 0;
+        }
+        section {
+            margin: 20px auto;
+            max-width: 800px;
+            background: rgba(0, 0, 0, 0.8); /* Darker semi-transparent background */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(255, 0, 0, 0.9); /* Strong red glow around the section */
+        }
+        section h2 {
+            color: #FFD700; /* Golden-yellow for subheadings */
+            text-shadow: 0 0 15px #FFD700, 0 0 25px #FFD700; /* Strong glowing effect */
+            margin-bottom: 10px;
+        }
+        section p {
+            color: #FFFFFF; /* White text for better readability */
+            text-shadow: 0 0 5px #FFFFFF; /* Subtle glowing effect */
+            font-size: 1.2em;
+        }
+        section strong {
+            color: #FFD700; /* Highlighted text in golden-yellow */
+        }
+        footer {
+            margin-top: 20px;
+            background-color: rgba(0, 0, 0, 0.95); /* Almost pure black for the footer */
+            color: #FFD700;
+            padding: 10px 0;
+            text-shadow: 0 0 10px #FFD700; /* Strong glowing effect */
+            box-shadow: 0 -4px 10px rgba(255, 0, 0, 0.8); /* Red glow at the top of the footer */
+        }
+        footer p {
+            font-size: 1em;
+        }
+    </style>
+    <!-- Navigation Bar -->
+<nav style="background-color: rgba(0, 0, 0, 0.95); padding: 10px; box-shadow: 0 4px 8px rgba(255, 0, 0, 0.8); display: flex; align-items: center; justify-content: center; position: relative; border: 2px solid crimson; border-radius: 10px;">
+    <a href="index.html" style="color: #FFD700; text-decoration: none; font-size: 1.5em; font-weight: bold; text-shadow: 0 0 15px #FFD700, 0 0 25px #FFD700; transition: transform 0.3s, color 0.3s; font-family: 'Press Start 2P', Arial, sans-serif;">
+        <span style="display: inline-block; transform: rotate(-10deg);">Home</span>
+    </a>
+    <div style="width: 2px; height: 30px; background: linear-gradient(to bottom, crimson, #FFD700); margin: 0 20px;"></div>
+    <span style="color: #FFFFFF; font-size: 1em; text-shadow: 0 0 5px #FFFFFF; font-family: 'Press Start 2P', Arial, sans-serif;">
+        (Use this to return to the Star Wars galaxy)
+    </span>
+</nav>
+<script>
+    const navLink = document.querySelector('nav a');
+    navLink.addEventListener('mouseover', () => {
+        navLink.style.transform = 'scale(1.2) rotate(5deg)';
+        navLink.style.color = 'crimson';
+    });
+    navLink.addEventListener('mouseout', () => {
+        navLink.style.transform = 'scale(1) rotate(-10deg)';
+        navLink.style.color = '#FFD700';
+    });
+</script>
+<!-- Navigation Bar -->
+</head>
+<body>
+    <header>
+        <h1>About Me - <span style="color: crimson;">Metalacrobat</span> 🌌</h1>
+    </header>
+    <section>
+        <h2>Hello, I'm <span style="color: crimson;">Metalacrobat</span>! 🚀</h2>
+        <p>
+            Much like a Jedi mastering the Force, I am a coder who thrives on solving problems and creating innovative solutions. 
+            My journey into the world of technology began with a deep curiosity about how things work, leading me to pursue a 
+            <strong>Bachelor's degree in Information Technology</strong>. Since graduating, I have continued to explore the vast galaxy of technology, 
+            always seeking to learn and grow. 🌌
+        </p>
+        <p>
+            Coding, to me, is like wielding a lightsaber—it's a tool of precision and creativity. ⚔️ I enjoy learning new programming languages, 
+            frameworks, and tools, much like a Jedi training to perfect their skills. Whether it's building websites, crafting applications, 
+            or exploring the latest tech trends, I approach every challenge with the determination of a Rebel fighting for a cause. ✊
+        </p>
+        <p>
+            In my free time, I channel my inner Yoda by experimenting with code, contributing to open-source projects, and staying updated with 
+            the ever-evolving tech universe. 🌠 My ultimate goal is to use the <span style="color: #FFD700;">"Force"</span> of technology to make a positive impact and inspire others 
+            to embrace the power of coding. As Master Yoda would say, <em style="color: #FFD700;">"Do or do not, there is no try."</em> 💡
+        </p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Metalacrobat. Inspired by Star Wars. ✨</p>
+    </footer>
+</body>
+</html>

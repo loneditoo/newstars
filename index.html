@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Metalacrobat"> <!-- Author -->
+    <meta name="keywords" content="Darth Vader, Star Wars, Sith Lord, Dark Side, Galactic Empire"> <!-- Keywords -->
+    <meta name="description" content="A tribute page to Darth Vader, the iconic Sith Lord from Star Wars."> <!-- Page Description -->
+    <title>Darth Vader - Sith Lord</title> <!-- Page Title -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); /* Star Wars-inspired font */
+
+        body {
+            margin: 0;
+            font-family: 'Press Start 2P', Arial, sans-serif; /* Star Wars-inspired font */
+            background-color: #000000; /* Pure black background for a darker theme */
+            background-image: url('./star-wars-background.jpg'); /* Replace with a Star Wars-themed background */
+            background-size: cover; /* Ensures the image covers the entire background */
+            background-position: center; /* Centers the image */
+            background-attachment: fixed; /* Keeps the background fixed during scrolling */
+            color: #FFD700; /* Golden-yellow text for Star Wars theme */
+            text-align: center;
+        }
+        nav {
+            background-color: rgba(0, 0, 0, 0.95); /* Almost pure black for the navbar */
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 10px rgba(255, 0, 0, 0.8); /* Strong red glow for the navbar */
+        }
+        nav a {
+            color: #FFD700; /* Golden-yellow text for links */
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            font-weight: bold;
+            text-shadow: 0 0 10px #FFD700; /* Glowing effect for links */
+        }
+        nav a:hover {
+            color: crimson; /* Red hover effect */
+            text-shadow: 0 0 15px crimson; /* Intense glowing effect on hover */
+        }
+        h1 {
+            font-size: 60px;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            color: crimson; /* Sith red for the main heading */
+            text-shadow: 0 0 30px crimson, 0 0 50px crimson; /* Intense glowing effect */
+            margin-top: 50px;
+        }
+        h2 {
+            font-size: 30px;
+            color: #FFD700; /* Golden-yellow for subheadings */
+            text-shadow: 0 0 20px #FFD700, 0 0 30px #FFD700; /* Strong glowing effect */
+            margin-bottom: 20px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .gallery {
+        display: flex; /* Use flexbox for horizontal layout */
+        justify-content: center; /* Center the images horizontally */
+        gap: 20px; /* Add space between images */
+        flex-wrap: nowrap; /* Prevent wrapping to the next line */
+    }
+    .gallery div {
+        text-align: center; /* Center-align text below each image */
+    }
+    .gallery img {
+        width: 100%;
+        max-width: 300px; /* Limit the width of each image */
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(255, 0, 0, 0.9); /* Strong red glow around images */
+        transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    }
+    .gallery img:hover {
+        transform: scale(1.1); /* Slight zoom on hover */
+        box-shadow: 0 0 40px crimson; /* Intense red glow on hover */
+    }
+    .gallery p {
+        color: #FFD700; /* Golden-yellow text for descriptions */
+        text-shadow: 0 0 10px #FFD700; /* Strong glowing effect */
+    }
+        footer {
+            background-color: rgba(0, 0, 0, 0.95); /* Almost pure black for the footer */
+            color: #FFD700; /* Golden-yellow text */
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            text-shadow: 0 0 10px #FFD700; /* Strong glowing effect */
+            box-shadow: 0 -4px 10px rgba(255, 0, 0, 0.8); /* Red glow at the top of the footer */
+        }
+        footer p {
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="aboutme.html">About</a>
+        <a href="legacy.html">Legacy</a>
+        <a href="index.html">Home</a>
+    </nav>
+
+    <!-- Main Heading -->
+    <h1>Embrace the Dark Side</h1>
+
+    <!-- Content Section -->
+    <div class="content">
+        <div class="gallery">
+            <!-- Image 1 -->
+            <div>
+                <a href="lightsaber.html">
+                    <img src="./assests/images/Darth Vader.jpg" alt="Darth Vader with Lightsaber">
+                </a>
+                <p>Darth Vader wielding his iconic red lightsaber.</p>
+            </div>
+            <!-- Image 2 -->
+            <div>
+                <a href="helmet.html">
+                    <img src="./assests/images/nhb9oMbI.jpg" alt="Darth Vader Helmet">
+                </a>
+                <p>The legendary helmet of Darth Vader, symbolizing fear and power.</p>
+            </div>
+            <!-- Image 3 -->
+            <div>
+                <a href="action.html">
+                    <img src="./assests/images/05DV0Ed3.jpg" alt="Darth Vader in Action">
+                </a>
+                <p>Darth Vader in action, showcasing his mastery of the Force.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Metalacrobat. All rights reserved.</p>
+    </footer>
+</body>
+</html>
